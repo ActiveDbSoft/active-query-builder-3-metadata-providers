@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "System.Data.SQLite.Core/1.0.107": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Data.SQLite.dll": {}
+        },
+        "build": {
+          "build/net40/System.Data.SQLite.Core.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win": {
+      "System.Data.SQLite.Core/1.0.107": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Data.SQLite.dll": {}
+        },
+        "build": {
+          "build/net40/System.Data.SQLite.Core.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Data.SQLite.Core/1.0.107": {
+      "sha512": "WE8yGTRbptejPCiBSrltXybw7aSIUvf5t9Q6XcBgV87TZVAHHHXNyIl6G7R7pS7Ufr+mUvh60yCsXdpRZF+sOg==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.107",
+      "files": [
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/System.Data.SQLite.Core.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.dll.config",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.dll.config",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.dll.config",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.dll.config",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.dll.config",
+        "lib/net46/System.Data.SQLite.xml",
+        "system.data.sqlite.core.1.0.107.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "System.Data.SQLite.Core >= 1.0.107"
+    ],
+    ".NETFramework,Version=v4.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Artem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\SQLiteMetadataProvider\\SQLiteMetadataProvider.csproj",
+      "projectName": "SQLiteMetadataProvider",
+      "projectPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\SQLiteMetadataProvider\\SQLiteMetadataProvider.csproj",
+      "projectJsonPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\SQLiteMetadataProvider\\project.json",
+      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\SQLiteMetadataProvider\\obj\\",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "C:\\Work\\ActiveQueryBuilderASPNET_3.0\\.nuget\\NuGet.Config",
+        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.0.3:8282/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "dependencies": {
+      "System.Data.SQLite.Core": "1.0.107"
+    },
+    "frameworks": {
+      "net40": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
+}

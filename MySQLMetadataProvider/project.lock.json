@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "MySql.Data/6.9.11": {
+        "type": "package",
+        "compile": {
+          "lib/net40/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MySql.Data.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win": {
+      "MySql.Data/6.9.11": {
+        "type": "package",
+        "compile": {
+          "lib/net40/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MySql.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MySql.Data/6.9.11": {
+      "sha512": "GS3hqyiSqw0bZmkRkDS1BhFfHV+Fr3LiuNIPc52n3H7aBrd5vhbiWqIUeEPkQVtPO8UYs0apZ218ecs5nF39XA==",
+      "type": "package",
+      "path": "mysql.data/6.9.11",
+      "files": [
+        "CHANGES",
+        "Readme.txt",
+        "content/app.config.transform",
+        "content/web.config.transform",
+        "lib/net40/MySql.Data.dll",
+        "lib/net45/MySql.Data.dll",
+        "mysql.data.6.9.11.nupkg.sha512",
+        "mysql.data.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "MySql.Data >= 6.9.11"
+    ],
+    ".NETFramework,Version=v4.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Artem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\MySQLMetadataProvider\\MySQLMetadataProvider.csproj",
+      "projectName": "MySQLMetadataProvider",
+      "projectPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\MySQLMetadataProvider\\MySQLMetadataProvider.csproj",
+      "projectJsonPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\MySQLMetadataProvider\\project.json",
+      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\MySQLMetadataProvider\\obj\\",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "C:\\Work\\ActiveQueryBuilderASPNET_3.0\\.nuget\\NuGet.Config",
+        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.0.3:8282/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "dependencies": {
+      "MySql.Data": "6.9.11"
+    },
+    "frameworks": {
+      "net40": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
+}

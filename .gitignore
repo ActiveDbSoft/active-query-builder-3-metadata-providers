@@ -1,0 +1,6 @@
+AQB.snk
+*_distrib
+*/bin/
+*/obj/
+*.orig
+*csproj.user
