@@ -60,7 +60,7 @@
       "outputPath": "C:\\Work\\ActiveQueryBuilderNET_3.0\\MetadataProviders\\MySQLMetadataProvider\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Work\\ActiveQueryBuilderASPNET_3.0\\.nuget\\NuGet.Config",
+        "C:\\Work\\ActiveQueryBuilderNET_3.0\\.nuget\\NuGet.Config",
         "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -56,6 +56,28 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>..\..\_Release_STD\ActiveQueryBuilder.VistaDB5MetadataProvider.xml</DocumentationFile>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveQueryBuilder.Core, Version=3.0.0.1000, Culture=neutral, PublicKeyToken=3cbcbcc9bf57ecde, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Debug_TRIAL\ActiveQueryBuilder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VistaDB.5.NET40">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\version.cs" />
+    <Compile Include="VistaDB5MetadataProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="VistaDB5MetadataProvider.bmp" />
+  </ItemGroup>
   
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

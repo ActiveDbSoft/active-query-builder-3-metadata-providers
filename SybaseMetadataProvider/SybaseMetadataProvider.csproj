@@ -56,6 +56,25 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>..\..\_Release_STD\ActiveQueryBuilder.SybaseMetadataProvider.xml</DocumentationFile>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveQueryBuilder.Core, Version=3.0.0.1000, Culture=neutral, PublicKeyToken=3cbcbcc9bf57ecde, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Debug_TRIAL\ActiveQueryBuilder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="iAnywhere.Data.SQLAnywhere, Version=11.0.0.14902, Culture=neutral, PublicKeyToken=f222fc4333e0d400, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SQL Anywhere 11\Assembly\V2\iAnywhere.Data.SQLAnywhere.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SybaseMetadataProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\version.cs" />
+  </ItemGroup>
   
   <ItemGroup>
     <EmbeddedResource Include="SybaseMetadataProvider.bmp" />

@@ -53,9 +53,7 @@
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="AQB.snk" />
-  </ItemGroup>
+  
   <ItemGroup>
     <EmbeddedResource Include="SQLiteMetadataProvider.bmp" />
   </ItemGroup>

@@ -57,6 +57,28 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>..\..\_Release_STD\ActiveQueryBuilder.FirebirdMetadataProvider.xml</DocumentationFile>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveQueryBuilder.Core, Version=3.0.0.1000, Culture=neutral, PublicKeyToken=3cbcbcc9bf57ecde, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Debug_TRIAL\ActiveQueryBuilder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FirebirdMetadataProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Properties\version.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FirebirdMetadataProvider.bmp" />
+  </ItemGroup>
   
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

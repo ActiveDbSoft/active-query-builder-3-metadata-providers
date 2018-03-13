@@ -58,6 +58,29 @@
     <DocumentationFile>..\..\_Release_STD\ActiveQueryBuilder.InformixMetadataProvider.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveQueryBuilder.Core, Version=3.0.0.1000, Culture=neutral, PublicKeyToken=3cbcbcc9bf57ecde, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Debug_TRIAL\ActiveQueryBuilder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IBM.Data.Informix, Version=3.0.0.2, Culture=neutral, PublicKeyToken=7c307b91aa13d208, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\IBM\Informix\Client-SDK\bin\netf20\IBM.Data.Informix.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InformixMetadataProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\version.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InformixMetadataProvider.bmp" />
+  </ItemGroup>
   
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

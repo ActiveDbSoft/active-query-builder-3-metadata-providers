@@ -57,6 +57,24 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>..\..\_Release_STD\ActiveQueryBuilder.OracleNativeMetadataProvider.xml</DocumentationFile>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveQueryBuilder.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Debug_TRIAL\ActiveQueryBuilder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OracleNativeMetadataProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\version.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OracleNativeMetadataProvider.bmp" />
+  </ItemGroup>
   
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
